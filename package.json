@@ -1,0 +1,17 @@
+{
+  "name": "resume-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "init": "resumed init",
+    "start": "npx resumed render --theme jsonresume-theme-macchiato-macea-custom"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "jsonresume-theme-macchiato-macea-custom": "file:./custom-theme/jsonresume-theme-macchiato-macea-master/",
+    "resume-cli": "^3.0.8",
+    "resumed": "^3.0.1"
+  }
+}

@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/apple/.nvm/versions/node/v16.19.0/bin/node /Users/apple/.nvm/versions/node/v16.19.0/bin/yarn add jsonresume-theme-macchiato-macea.
+
+PATH: 
+  /Users/apple/.rvm/gems/ruby-2.7.6/bin:/Users/apple/.rvm/gems/ruby-2.7.6@global/bin:/Users/apple/.rvm/rubies/ruby-2.7.6/bin:/Users/apple/.nvm/versions/node/v16.19.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/apple/Library/Android/sdk/emulator:/Users/apple/Library/Android/sdk/platform-tools:/Users/apple/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jsonresume-theme-macchiato-macea.: Not found
+      at Request.params.callback [as _callback] (/Users/apple/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/apple/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/apple/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/apple/.nvm/versions/node/v16.19.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "resume-generator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
