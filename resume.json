@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Varnit Goyal",
-    "label": "Software Engineer 3",
+    "name": "Ayushi gupta",
+    "label": "Senior software engineer at Deloitte",
     "image": "",
-    "email": "varnitgoyal95@gmail.com",
-    "phone": "(+91) 8743843991",
+    "email": "ayushi.guptaa13@gmail.com",
+    "phone": "(+91) 8602604629",
     "url": "",
-    "summary": "Highly accomplished Software Engineer (SDE 3) with a strong background in leading and mentoring teams of software engineers. Skilled in addressing intricate software engineering challenges and delivering impressive projects",
+    "summary": "Experienced Full Stack Software Engineer with 6+ years of expertise in developing scalable web applications using .NET Core, .NET Framework, C#, ASP.NET, Angular, Entity Framework, and SQL Server. Proficient in leveraging Azure Cloud services, RESTful APIs, and full-stack development to deliver secure, high-performance solutions. Proven track record of driving user engagement, optimizing application performance, and delivering end-to-end software solutions aligned with business goals in Agile environments.",
     "location": {
       "address": "Hsr Layout sec 2",
       "postalCode": "560102",
@@ -17,146 +17,75 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "Linkedin",
+        "username": "Ayushi Gupta",
+        "url": "https://www.linkedin.com/in/ayushi-gupta-ba363a165/"
       }
     ]
   },
   "work": [
     {
-      "name": "Navi",
+      "name": "Deloitte",
       "location": "Bengaluru",
-      "description": "Navi is an Indian financial services company founded by Sachin Bansal its goal is to simplify finance",
-      "position": "SDE3 in UI",
-      "url": "https://navi.com/",
-      "startDate": "2022-07-06",
-      "endDate": "2023-08-01",
-      "summary": "Delivering and architecting world class products with a team of 6 ui developers",
+      "description": "Deloitte, one of the Big Four accounting firms, is the largest global professional services network by revenue and workforce.",
+      "position": "Senior software engineer",
+      "url": "https://www.deloitte.com/",
+      "startDate": "2019-06-16",
+      "endDate": "2025-04-20",
+      "summary": "Leading the development of AQMM, a mission-critical application built using .NET Core, C#, and Azure, designed to monitor audit quality in Deloitte's audit processes. Successfully deployed across 130+ countries, ensuring scalability, reliability, and compliance with global standards.",
       "highlights": [
-        "Architected and maintaining Most optimised Video kyc platform in world which is currently handling around 15000 VKYC per day .",
-        "Architected and maintaining chat support with bots and agents for navi handling 3 Lakhs tickets per month",
-        "Architected and maintaining Data annotation, a product which is used by agents to label data for Data science team",
-        "Developed underwriting portal which facilitates creation of underwriting strategies for navi",
-        "Mentoring team of 6 engineers and transitioned 2 SDE to SDE2"
-      ]
-    },
-    {
-      "name": "Razorpay",
-      "location": "Bengaluru",
-      "description": "India's Leading payment gateway provider with more than 60 Billion total payment value",
-      "position": "Senior Frontend Engineer",
-      "url": "https://razorpay.com/",
-      "startDate": "2021-04-08",
-      "endDate": "2022-07-06",
-      "summary": "Build world class product Razorpay X, which was used by the likes of Swiggy, Whatsapp, Flipkart ",
-      "highlights": [
-        "Got promoted to Senior Frontend Engineer in 6 months",
-        "Reports app, cohesive payouts, invoice app, storybook, service worker, offline mode",
-        "Revamp Razorpay X entire payout flow to make it more cohesive and smarter, which increased the conversion rate by 50%",
-        "Single-handedly created invoice app for Razorpay X",
-        "Single-handedly created Reports app for Razorpay X",
-        "Took initiative and implement service worker for Razorpay X which increased the loading time for webpage",
-        "Build the offline mode for Razorpay X",
-        "Optimise build time for Razorpay X",
-        "Helped in maintaining design system for Razorpay X"
-
-      ]
-    },
-    {
-      "name": "Tokopedia (Part of Gojek)",
-      "location": "Noida",
-      "description": "Tokopedia is the largest Indonesian E-commerce with more than 100 millions active users",
-      "position": "Software Engineer",
-      "url": "https://www.tokopedia.com/about/?lang=en",
-      "startDate": "2019-08-08",
-      "endDate": "2021-04-08",
-      "summary": "Worked as a Software engineer, architected and delivered world class products",
-      "highlights": [
-        "Architected Hypnos which is their in house RUM monitoring system",
-        "Delivered full fledged verticals like toko member, tokopoints and optimise them for 100 million active users",
-        "Developed games for Tokopedia's sales campaign and optimise them to run at more than 60 FPS",
-        "Optimise Tokopedia's crucial web pages to score more than 90 in lighthouse",
-        "Wrote unit tests using jest and RTL for more than 75% of code coverage",
-        "Heavily worked on React, Redux, node, postgres, Jest and Graphql"
-
-      ]
-    },
-    {
-      "name": "To The New",
-      "location": "Noida",
-      "description": "TO THE NEW is a digital technology firm providing digital transformation and product engineering services to ISVs, Consumer Internet, and large enterprises across the globe.",
-      "position": "Software Engineer",
-      "url": "https://www.tothenew.com/",
-      "startDate": "2019-02-01",
-      "endDate": "2019-08-08",
-      "summary": "Worked as a fullstack developer mostly on React, Redux and node js",
-      "highlights": [
-        "Worked for Tabcorp which is 2 largest betting company in Australia",
-        "Worked for Boston Bear develop games for their POS machines using service workers.",
-        "Worked on email unsubscribe mechanism for To the new marketing mails"
+        "Developed a robust framework leveraging C#,.NET Core, .NET Framework, Entity Framework, SQL Server, Angular, and Azure Cloud, driving the global success of AQMM by ensuring scalability, performance, and seamless integration.",
+        "Recognized for mentoring and guiding junior developers, fostering a collaborative, growth-oriented team environment, and promoting best practices in .NET Core, Angular, and full-stack development."
       ]
     }
-
-
-
-
   ],
   "education": [
     {
-      "institution": "GGPSIPU",
-      "url": "http://www.ipu.ac.in/",
-      "area": "Information Technology",
-      "studyType": "Masters",
-      "startDate": "2016-06-01",
-      "endDate": "2019-05-31",
-      "score": "8.7",
+      "institution": "Shri G S Institute of Technology & Science",
+      "url": "https://www.sgsits.ac.in/",
+      "area": "Engineering",
+      "studyType": "Bachelor of Engineering Electronics",
+      "startDate": "2015-06-01",
+      "endDate": "2019-06-01",
+      "score": "8+",
       "courses": [
-        "MCA"
+        "Bachelor of Engineering"
       ]
     }
   ],
-  "awards": [
+  "awards and certifications": [
     {
-      "title": "Navi Security hackathon",
-      "awarder": "Navi",
-      "summary": "Won runner up award for navi security hackathon"
+      "title": "Outstanding, Applause and Spot awards",
+      "awarder": "Deloitte",
+      "summary": "Won 6 outstanding, applause and spot awards."
     },
     {
-      "title": "Razorpay Ideathon",
-      "awarder": "Razorpay",
-      "summary": "Won Razorpay ideathon award"
-    },
-    {
-      "title": "Tokopedia DNA award",
-      "awarder": "Tokopedia",
-      "summary": "Won Tokopedia DNA award"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Employing Decentralized Technologies for Machine-Learning Detection of Advanced Malware",
-      "publisher": "Scopus",
-      "releaseDate": "2018-10-12"
+      "title": "Azure fundamentals and Azure data fundamentals",
+      "awarder": "Microsoft",
+      "summary": "Certified with Microsoft AZ-900 and DP-900"
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Enterprise web application development",
       "level": "Master",
       "keywords": [
-        "Web Architect",
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React",
-        "Redux",
-        "GraphQL"
+        "C#" ,
+        ".Net",
+        "ASP.NET",
+        "Dot net core",
+        ".Net framework",
+        "Entity framework",
+        "Microservices",
+        "MVC framework",
+        "RESTful APIs",
+        "LINQ",
+        "Angular",
+        "Azure",
+        "SQL",
+        "Microsoft SQL server",
+        "Postman",
+        "Agile"
       ]
     }
   ],
@@ -168,13 +97,12 @@
   ],
   "projects": [
     {
-      "name": "Video KYC",
-      "description": "Architected and managing Video kyc process for Navi",
+      "name": "Multi Geo",
+      "description": "Redesigned and optimized the existing database architecture using SQL Server and Entity Framework to align with country-specific databases, ensuring compliance with regional regulatory requirements and improving data integrity and performance.",
       "highlights": [
-        "Most optimised Video KYC process in world",
-        "Brought TAT per ticket to 65s",
-        "Brought abandonment due to system to 0%",
-        "Currently handling 10000 Video kyc on daily basis"
+        "Restructured the existing database into a four-level hierarchical architecture using SQL Server and Entity Framework, enhancing scalability and data organization.",
+        "Deployed database servers to new geographical locations, ensuring low-latency access and improved performance.",
+        "Facilitated seamless data migration to the new database architecture by leveraging Azure Data Factory (ADF) pipelines, ensuring accuracy and minimal downtime."
       ],
       "roles": [
         "Architect",
@@ -183,83 +111,12 @@
       "type": "platform"
     },
     {
-      "name": "Customer Support",
-      "description": "Architected and managing chat, call and email support platform for Navi",
+      "name": "AQMM web application",
+      "description": "Developed and consolidated reporting dashboards using .NET Core, Angular, and Power BI to streamline engagement data filed by auditors, enabling real-time insights and improved decision-making.",
       "highlights": [
-        "currently handling 3 Lakhs chat support tickets per month",
-        "Brought average CSAT ratings to 3.8",
-        "Optimising for BOT so that most of the queries are answered by BOTS"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Underwriting Portal",
-      "description": "Portal to manage underwriting strategies",
-      "highlights": [
-        "Created a portal to manage underwriting strategies for loan disbursement related decision",
-        "Saved 80 days of developer bandwidth",
-        "Created a web based IDE and other complex components"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Razorpay X",
-      "description": "Razorpay's Neo banking platform",
-      "highlights": [
-        "Worked on Futuristic UI",
-        "Worked on cohesive payouts, made payout more intelligent and cohesive which increased the conversion rate by 50%",
-        "Implemented offline mode for Razorpay X",
-        "Implemented service worker for Razorpay X"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Hypnos",
-      "description": "In house Real time user metrics collector",
-      "highlights": [
-        "Architected the project end to end",
-        "Helped us in finding which best CDN for Tokopedia's users",
-        "Helped us in finding kind of devices we are optimising for",
-        "Helped us to find bottlenecks in page performance"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Games",
-      "description": "Created games for Tokopedia sales campaign",
-      "highlights": [
-        "optimise games to run on low end devices",
-        "optimise games to run at 60fps"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Tokopedia Platform",
-      "description": "Created various user facing features",
-      "highlights": [
-        "Developed and manged Tokopoints",
-        "Developed and managed Tokomember",
-        "Developed Tokopedia rewards platform"
+        "Working as a Full Stack Developer, delivering end-to-end features across both backend and frontend using .NET Core, C#, Entity Framework, Angular, and SQL Server, ensuring seamless integration and high-performance solutions",
+        "Redesigned the API layer and implemented microservices architecture using C#, .NET Core, and .NET Framework, enhancing scalability, maintainability, and system performance.",
+        "Integrated Redis for efficient cache management, optimizing application performance and reducing database load in .NET Core and C#-based applications."
       ],
       "roles": [
         "Architect",
@@ -267,6 +124,5 @@
       ],
       "type": "platform"
     }
-
   ]
 }
