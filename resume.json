@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Ayushi gupta",
+    "name": "Ayushi Gupta",
     "label": "Senior software engineer at Deloitte",
     "image": "",
     "email": "ayushi.guptaa13@gmail.com",
@@ -85,7 +85,8 @@
         "SQL",
         "Microsoft SQL server",
         "Postman",
-        "Agile"
+        "Agile",
+        "git"
       ]
     }
   ],
