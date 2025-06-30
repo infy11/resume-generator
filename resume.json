@@ -2,48 +2,37 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Varnit Goyal",
-    "label": "Software Engineer 3",
+    "label": "Tech Lead",
     "image": "",
     "email": "varnitgoyal95@gmail.com",
     "phone": "(+91) 8743843991",
     "url": "",
-    "summary": "Highly accomplished Software Engineer (SDE 3) with a strong background in leading and mentoring teams of software engineers. Skilled in addressing intricate software engineering challenges and delivering impressive projects",
+    "summary": "Highly accomplished lead engineer with a strong background in leading and mentoring teams of software engineers. Skilled in addressing intricate software engineering challenges and delivering impressive projects",
     "location": {
       "address": "Hsr Layout sec 2",
       "postalCode": "560102",
       "city": "Bengaluru",
       "countryCode": "IN",
       "region": ""
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
-      }
-    ]
+    }
   },
   "work": [
     {
       "name": "Navi",
       "location": "Bengaluru",
       "description": "Navi is an Indian financial services company founded by Sachin Bansal its goal is to simplify finance",
-      "position": "SDE3 in UI",
+      "position": "Tech Lead",
       "url": "https://navi.com/",
       "startDate": "2022-07-06",
-      "endDate": "2023-08-01",
-      "summary": "Delivering and architecting world class products with a team of 6 ui developers",
+      "endDate": "2025-06-01",
+      "summary": "Delivering and architecting world class products.",
       "highlights": [
+        "Working on optimisation of Navi's lending journey for 0.5 million customers",
+        "Architected observability tools for UI which is being used by dozens of internal teams at Navi and helped us reduce MTTR by more than 50%",
+        "Architected and developed Navi collection portal and Field collection react native app which is helping us achieve 99.5% of collection efficiency",
         "Architected and maintaining Most optimised Video kyc platform in world which is currently handling around 15000 VKYC per day .",
         "Architected and maintaining chat support with bots and agents for navi handling 3 Lakhs tickets per month",
-        "Architected and maintaining Data annotation, a product which is used by agents to label data for Data science team",
-        "Developed underwriting portal which facilitates creation of underwriting strategies for navi",
-        "Mentoring team of 6 engineers and transitioned 2 SDE to SDE2"
+        "Mentored a team of 12 engineers and facilitated the promotion of 3 SDEs to SDE2 and 2 SDE2s to SDE3"
       ]
     },
     {
@@ -125,7 +114,7 @@
     {
       "title": "Navi Security hackathon",
       "awarder": "Navi",
-      "summary": "Won runner up award for navi security hackathon"
+      "summary": "Won runner up award for navi security hackathon 2 times"
     },
     {
       "title": "Razorpay Ideathon",
@@ -136,13 +125,6 @@
       "title": "Tokopedia DNA award",
       "awarder": "Tokopedia",
       "summary": "Won Tokopedia DNA award"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Employing Decentralized Technologies for Machine-Learning Detection of Advanced Malware",
-      "publisher": "Scopus",
-      "releaseDate": "2018-10-12"
     }
   ],
   "skills": [
@@ -168,6 +150,23 @@
   ],
   "projects": [
     {
+      "name": "Cybertron",
+      "description": "In house Navi's observability platform for web",
+      "highlights": [
+        "Architected observability tools for UI which is being used by 10s of internal teams at Navi and helped us reduce MTTR by more than 50%",
+        "Supports a logs, metrics and negative experiences through single SDK."
+      ]
+    },
+    {
+      "name": "Collections Portal/ Field React native app",
+      "description": "Architected and developed Navi's collection portal",
+      "highlights": [
+        "One of the most sophisticated internal portal at Navi tailored for collections, helping us achieve 99.5% of CE one of the best in fintech industry ",
+        "Developed react native app for field collection, achieved 99.5 error free users and optimised to run in low network conditions",
+        "Developed Inhouse calling SDK by reverse engineering vendor portals helped reduce errors and agent's experience"
+        ]
+    },
+    {
       "name": "Video KYC",
       "description": "Architected and managing Video kyc process for Navi",
       "highlights": [
@@ -175,40 +174,16 @@
         "Brought TAT per ticket to 65s",
         "Brought abandonment due to system to 0%",
         "Currently handling 10000 Video kyc on daily basis"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
+      ]
     },
     {
       "name": "Customer Support",
       "description": "Architected and managing chat, call and email support platform for Navi",
       "highlights": [
         "currently handling 3 Lakhs chat support tickets per month",
-        "Brought average CSAT ratings to 3.8",
+        "Brought average CSAT ratings to 3.9",
         "Optimising for BOT so that most of the queries are answered by BOTS"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Underwriting Portal",
-      "description": "Portal to manage underwriting strategies",
-      "highlights": [
-        "Created a portal to manage underwriting strategies for loan disbursement related decision",
-        "Saved 80 days of developer bandwidth",
-        "Created a web based IDE and other complex components"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
+      ]
     },
     {
       "name": "Razorpay X",
@@ -218,40 +193,15 @@
         "Worked on cohesive payouts, made payout more intelligent and cohesive which increased the conversion rate by 50%",
         "Implemented offline mode for Razorpay X",
         "Implemented service worker for Razorpay X"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
+      ]
     },
     {
-      "name": "Hypnos",
-      "description": "In house Real time user metrics collector",
-      "highlights": [
-        "Architected the project end to end",
-        "Helped us in finding which best CDN for Tokopedia's users",
-        "Helped us in finding kind of devices we are optimising for",
-        "Helped us to find bottlenecks in page performance"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
-    },
-    {
-      "name": "Games",
+      "name": "Web Games",
       "description": "Created games for Tokopedia sales campaign",
       "highlights": [
         "optimise games to run on low end devices",
         "optimise games to run at 60fps"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
+      ]
     },
     {
       "name": "Tokopedia Platform",
@@ -260,12 +210,7 @@
         "Developed and manged Tokopoints",
         "Developed and managed Tokomember",
         "Developed Tokopedia rewards platform"
-      ],
-      "roles": [
-        "Architect",
-        "Web developer"
-      ],
-      "type": "platform"
+      ]
     }
 
   ]
