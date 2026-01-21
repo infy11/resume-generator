@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Varnit Goyal",
-    "label": "Tech Lead",
+    "label": "Tech Lead and Senior Frontend Engineer\nTargeting Staff / Principal roles",
     "image": "",
     "email": "varnitgoyal95@gmail.com",
     "phone": "(+91) 8743843991",
     "url": "",
-    "summary": "Highly accomplished lead engineer with a strong background in leading and mentoring teams of software engineers. Skilled in addressing intricate software engineering challenges and delivering impressive projects",
+    "summary": "Tech Lead with 7+ years of experience building and architecting high-impact frontend and platform systems at fintech and consumer-scale companies.",
     "location": {
-      "address": "Hsr Layout sec 2",
+      "address": "Hsr Layout",
       "postalCode": "560102",
       "city": "Bengaluru",
       "countryCode": "IN",
@@ -18,21 +18,36 @@
   },
   "work": [
     {
+      "name": "Clearstreet",
+      "location": "Bengaluru",
+      "description": "Clearstreet is a modern prime brokerage firm that provides technology-enabled execution and clearing services to clients.",
+      "position": "Senior software Engineer",
+      "url": "https://www.clearstreet.io/",
+      "startDate": "2025-07-28",
+      "endDate": "2026-02-01",
+      "summary": "Working on platform team to make sure that the core is stable and scalable.",
+      "highlights": [
+        "Core contributor on the Frontend Platform team, owning shared infrastructure used across multiple federated applications",
+        "Stabilized and scaled a micro-frontend architecture (Module Federation), improving deployment reliability and cross-app isolation",
+        "Built reusable platform capabilities (auth, feature flags, error handling, design system primitives) consumed by all frontend teams"
+      ]
+    },
+    {
       "name": "Navi",
       "location": "Bengaluru",
       "description": "Navi is an Indian financial services company founded by Sachin Bansal its goal is to simplify finance",
       "position": "Tech Lead",
       "url": "https://navi.com/",
       "startDate": "2022-07-06",
-      "endDate": "2025-06-01",
+      "endDate": "2025-07-20",
       "summary": "Delivering and architecting world class products.",
       "highlights": [
-        "Working on optimisation of Navi's lending journey for 0.5 million customers",
-        "Architected observability tools for UI which is being used by dozens of internal teams at Navi and helped us reduce MTTR by more than 50%",
-        "Architected and developed Navi collection portal and Field collection react native app which is helping us achieve 99.5% of collection efficiency",
-        "Architected and maintaining Most optimised Video kyc platform in world which is currently handling around 15000 VKYC per day .",
-        "Architected and maintaining chat support with bots and agents for navi handling 3 Lakhs tickets per month",
-        "Mentored a team of 12 engineers and facilitated the promotion of 3 SDEs to SDE2 and 2 SDE2s to SDE3"
+        "Led architecture and delivery of large-scale React and React Native systems across collections, customer support, and KYC platforms",
+        "Designed and built an in-house Video KYC platform processing 15,000+ sessions/day, reducing TAT to 65s and eliminating system-driven abandonment",
+        "Built a UI observability platform (logs, metrics, RUM) adopted by 10+ internal teams, reducing frontend MTTR by 50%+",
+        "Architected collections portal and field agent mobile app, contributing to 99.5% collection efficiency",
+        "Designed and implemented an internal calling SDK handling 1000s of daily calls with <0.1% failure rate",
+        "Mentored 12 engineers; enabled promotions of 5 engineers across SDE levels"
       ]
     },
     {
@@ -45,16 +60,11 @@
       "endDate": "2022-07-06",
       "summary": "Build world class product Razorpay X, which was used by the likes of Swiggy, Whatsapp, Flipkart ",
       "highlights": [
-        "Got promoted to Senior Frontend Engineer in 6 months",
-        "Reports app, cohesive payouts, invoice app, storybook, service worker, offline mode",
-        "Revamp Razorpay X entire payout flow to make it more cohesive and smarter, which increased the conversion rate by 50%",
-        "Single-handedly created invoice app for Razorpay X",
-        "Single-handedly created Reports app for Razorpay X",
-        "Took initiative and implement service worker for Razorpay X which increased the loading time for webpage",
-        "Build the offline mode for Razorpay X",
-        "Optimise build time for Razorpay X",
-        "Helped in maintaining design system for Razorpay X"
-
+        "Promoted to Senior Frontend Engineer within 6 months based on performance and impact",
+        "Owned development of Reports and Invoice applications for Razorpay X",
+        "Redesigned and rebuilt the payouts flow, increasing conversion by 50%",
+        "Implemented Service Workers and offline support, improving resilience and load performance",
+        "Optimized build pipelines and contributed to Razorpay X’s design system and Storybook"
       ]
     },
     {
@@ -67,13 +77,12 @@
       "endDate": "2021-04-08",
       "summary": "Worked as a Software engineer, architected and delivered world class products",
       "highlights": [
-        "Architected Hypnos which is their in house RUM monitoring system",
-        "Delivered full fledged verticals like toko member, tokopoints and optimise them for 100 million active users",
-        "Developed games for Tokopedia's sales campaign and optimise them to run at more than 60 FPS",
-        "Optimise Tokopedia's crucial web pages to score more than 90 in lighthouse",
-        "Wrote unit tests using jest and RTL for more than 75% of code coverage",
-        "Heavily worked on React, Redux, node, postgres, Jest and Graphql"
-
+        "Designed and built Hypnos, an in-house Real User Monitoring (RUM) platform to track performance and reliability at scale",
+        "Led development of large consumer-facing verticals including Tokopoints and TokoMember, serving 100M+ active users",
+        "Developed high-traffic interactive web games for major sales campaigns, optimized to sustain 60 FPS on low-end devices",
+        "Optimized critical web pages to achieve 90+ Lighthouse scores, improving load times and user experience",
+        "Wrote comprehensive unit and integration tests using Jest and React Testing Library, achieving 75%+ coverage",
+        "Worked extensively with React, Redux, Node.js, PostgreSQL, GraphQL, and performance optimization techniques"
       ]
     },
     {
@@ -91,10 +100,6 @@
         "Worked on email unsubscribe mechanism for To the new marketing mails"
       ]
     }
-
-
-
-
   ],
   "education": [
     {
@@ -129,89 +134,66 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Frontend",
       "keywords": [
         "Web Architect",
+        "Micro Frontends",
+        "React",
+        "React Native",
+        "Redux",
+        "Redux toolkit",
+        "GraphQL",
+        "Next js"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
         "HTML",
         "CSS",
-        "Javascript",
-        "React",
-        "Redux",
-        "GraphQL"
+        "Es6+"
+      ]
+    },
+    {
+      "name": "Platform and tooling",
+      "keywords": [
+        "Webpack",
+        "Vite",
+        "Nx",
+        "Monorepos",
+        "Storybook",
+        "Service Workers"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "Jest",
+        "React Testing Library",
+        "Puppeteer",  
+        "vitest"
+      ]
+    },
+    {
+      "name": "performance",
+      "keywords": [
+       "Lighthouse",
+       "Web Vitals",
+       "RUM",
+       "Bundle Optimization"
+      ]
+    },
+     {
+      "name": "Leadership",
+      "keywords": [
+       "System Design",
+       "Team Management",
+       "Hiring",
+       "Mentorship",
+       "Code Reviews"
       ]
     }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Excellent"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Cybertron",
-      "description": "In house Navi's observability platform for web",
-      "highlights": [
-        "Architected observability tools for UI which is being used by 10s of internal teams at Navi and helped us reduce MTTR by more than 50%",
-        "Supports a logs, metrics and negative experiences through single SDK."
-      ]
-    },
-    {
-      "name": "Collections Portal/ Field React native app",
-      "description": "Architected and developed Navi's collection portal",
-      "highlights": [
-        "One of the most sophisticated internal portal at Navi tailored for collections, helping us achieve 99.5% of CE one of the best in fintech industry ",
-        "Developed react native app for field collection, achieved 99.5 error free users and optimised to run in low network conditions",
-        "Developed Inhouse calling SDK by reverse engineering vendor portals helped reduce errors and agent's experience"
-        ]
-    },
-    {
-      "name": "Video KYC",
-      "description": "Architected and managing Video kyc process for Navi",
-      "highlights": [
-        "Most optimised Video KYC process in world",
-        "Brought TAT per ticket to 65s",
-        "Brought abandonment due to system to 0%",
-        "Currently handling 10000 Video kyc on daily basis"
-      ]
-    },
-    {
-      "name": "Customer Support",
-      "description": "Architected and managing chat, call and email support platform for Navi",
-      "highlights": [
-        "currently handling 3 Lakhs chat support tickets per month",
-        "Brought average CSAT ratings to 3.9",
-        "Optimising for BOT so that most of the queries are answered by BOTS"
-      ]
-    },
-    {
-      "name": "Razorpay X",
-      "description": "Razorpay's Neo banking platform",
-      "highlights": [
-        "Worked on Futuristic UI",
-        "Worked on cohesive payouts, made payout more intelligent and cohesive which increased the conversion rate by 50%",
-        "Implemented offline mode for Razorpay X",
-        "Implemented service worker for Razorpay X"
-      ]
-    },
-    {
-      "name": "Web Games",
-      "description": "Created games for Tokopedia sales campaign",
-      "highlights": [
-        "optimise games to run on low end devices",
-        "optimise games to run at 60fps"
-      ]
-    },
-    {
-      "name": "Tokopedia Platform",
-      "description": "Created various user facing features",
-      "highlights": [
-        "Developed and manged Tokopoints",
-        "Developed and managed Tokomember",
-        "Developed Tokopedia rewards platform"
-      ]
-    }
-
   ]
 }
